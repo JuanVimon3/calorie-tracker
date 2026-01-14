@@ -66,7 +66,7 @@ export default function Form({dispatch, state} : FormProps) {
         <select
           className="border border-slate-300 p-2 rounded-lg w-full bg-white" name="" 
           id="category"
-          value={activity.calories}
+          value={activity.category}
           onChange={handleChange}
         >
           {categories.map(category => (
